@@ -1,0 +1,14 @@
+# OS
+.DS_Store
+
+# Virtual Enviroment
+venv/
+
+# IDE
+.idea/
+
+# DB
+db.sqlite3
+
+# Secret Information
+.env
