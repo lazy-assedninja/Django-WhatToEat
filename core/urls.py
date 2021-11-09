@@ -16,6 +16,11 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 
+from line_bot import views as line
+
 urlpatterns = [
     path('admin/', admin.site.urls),
+
+    # Line Bot
+    path('LineBot/Webhook', line.webhook, name='line_bot_webhook')
 ]
