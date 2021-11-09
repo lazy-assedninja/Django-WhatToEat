@@ -4,8 +4,8 @@ from django.db import models
 class Tag(models.Model):
     id = models.AutoField(primary_key=True)
     name = models.TextField()
-    create_date = models.DateTimeField()
-    modify_date = models.DateTimeField()
+    create_time = models.DateTimeField()
+    update_time = models.DateTimeField()
 
     class Meta:
         db_table = 'tag'
