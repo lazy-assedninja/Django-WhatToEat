@@ -26,17 +26,13 @@ Start your virtual environment:
 ```commandline
 source venv/bin/activate
 ```
-Install packages with requirements:
-```commandline
-pip install -r requirements.txt
-```
 Install MySQL developing packages:
 ```commandline
 sudo apt-get install libmysqlclient-dev python-dev
 ```
-Install MySQLdb:
+Install packages with requirements:
 ```commandline
-pip install mysqlclient
+pip install -r requirements.txt
 ```
 
 ## Configurations
