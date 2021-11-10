@@ -1,14 +1,14 @@
-# OS
+# Mac OS
 .DS_Store
 
 # Virtual Enviroment
 venv/
 
-# IDE
+# JetBrains IDE
 .idea/
 
 # DB
 db.sqlite3
 
-# Secret Information
+# Configurations
 .env
