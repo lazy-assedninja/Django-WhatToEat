@@ -36,7 +36,7 @@ def echo(event):
 @web_hook_handler.add(FollowEvent)
 def follow(event):
     try:
-        # Get line user's information
+        # Get follower name
         user_name = line_bot_api.get_profile(
             event.source.sender_id).display_name
 
