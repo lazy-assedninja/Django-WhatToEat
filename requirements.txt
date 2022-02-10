@@ -1,4 +1,4 @@
-Django==3.2.9
+Django==3.2.12
 django-dotenv==1.4.2
 line-bot-sdk==2.0.1
 mysqlclient==2.0.3
